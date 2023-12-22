@@ -54,6 +54,7 @@ The Spring Cloud Config Server is responsible for providing centralized configur
 
 2. **Create Limits Service Properties Files:**
     - Create `limits-service-qa.properties` and `limits-service-dev.properties` in the newly created folder.
+    - Add the limits inside the folders like this `limits-service.minimum = 5 - limits-service.maximum = 995`.
 
 3. **Commit to Local Repository:**
     ```bash
